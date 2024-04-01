@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="output.css" rel="stylesheet">
+</head>
+<body>
+        <header class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#Inicio"><i class="bi bi-house"></i></a></li>
+                    <li><a href="#About"><i class="bi bi-person-fill"></i></a></li>
+                    <li><a href="#Proyectos"><i class="bi bi-briefcase"></i></a></li>
+                    <li><a href=""><i class="bi bi-mortarboard-fill"></i></a></li>
+                    <li><a href="#contacto"><i class="bi bi-stack"></i></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <div class="gran-contenedor" id="Inicio">
+                <div class="animacion">
+                    <div class="contenedor-logo">
+                        <div class="logo">
+                            <a href="#logo">
+                                <img src="../images/fotaza.jpg" alt="">
+                            </a>
+                            <h1>Facundo Regner</h1>
+                            <p>Desarrolador Web</p>
+                        </div>
+                        <nav class="redes">
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                                    <a href="#"><i class="bi bi-instagram"></i></a>
+                                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#"><i class="bi bi-github"></i></a>
+                                </li>
+                        </nav>
+                        <div class="enlace">
+                            <a href=""><button><i class="bi bi-file-earmark-zip"></i>Curriculum</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <section id="About" class="landing-section" style="display: flex; align-items: center; justify-content: center; flex-direction: column; width: 100%; height: 100vh;">
+
+                <h2 style="text-align: center; font-size: 40px; font-weight: bold; color: white;">Stack de Habilidades</h2>
+                
+                <div class="contenedor-flex-1">
+                    <article style="height: 100%; width: 100%; background: rgba(255, 255, 255, .25); padding: 10px;" href="#" >
+                        
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    </article>
+                </div>
+
+                <div class="contenedor-flex-2">    
+                        
+                    <article href="#" class="flex-item" style="background-image: linear-gradient(90deg, #82c91e 5%, #3bc9db 95%);">
+                            
+                    <h5 >Noteworthy technology acquisitions 2021</h5>
+                    <p >Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    </article>
+
+                    <article href="#" class="flex-item" style="background-image: linear-gradient(90deg, #7950f2 5%, #f783ac 95%);">
+                            
+                    <h5 >Noteworthy technology acquisitions 2021</h5>
+                    <p >Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    </article>
+
+                    <article href="#" class="flex-item" style="background-image: linear-gradient(90deg, #40c057 17%, #9775fa 81%);">
+                            
+                        <h5 >Noteworthy technology acquisitions 2021</h5>
+                        <p >Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    </article>
+
+                </div> 
+                
+            </section>
+
+            <section id="contacto" class="contacto">
+                <form method="post" action="contacto.php">
+                    <div class="contacto-item">
+                        <label>Nombre :</label>
+                        <input name="nombre">
+                    </div>
+                    <div class="contacto-item">
+                        <label>Email :</label>
+                        <input name="email">
+                    </div>
+                    <div class="contacto-item">
+                        <label>Mensaje :</label>
+                        <textarea rows="5" cols="20" name="mensaje"></textarea>
+                    </div>
+                    <input class="contacto-button" type="submit" name="submit">
+                </form>      
+            </section>
+               
+        </main>
+<script src="script.js"></script>
+</body>
+</html>
