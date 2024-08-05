@@ -160,6 +160,7 @@ main {
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animato 3s linear infinite;
+  background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
